@@ -1,0 +1,6 @@
+python3 -m venv env
+source venv/Scripts/activate
+which python
+pip install -r requirements.txt
+*** random serect_key
+ openssl rand -hex 32
